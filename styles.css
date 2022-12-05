@@ -1,0 +1,212 @@
+:root {
+    --baseblue: #e0e4f0;
+}
+
+
+body {
+    background-color: aliceblue;
+    font-family: Tahoma;
+    color: black;
+    /* font-weight: 600;     */
+}
+
+.sheet {
+    position: absolute;
+    height: 400px;
+    width: 675px;
+    margin:auto;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+}
+
+/* ENTIRE CARD */
+.card {
+    position: absolute;
+    display: grid;
+    height: 80%;
+    width: 90%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* ARCHIVE TAB */
+.tab-container {
+    /* position: static; */
+    height: 6%;
+    width: 50%;
+    padding: 2px;
+    top: 12px;
+    background-color: var(--baseblue);
+    color: white;
+    text-shadow: 2px 2.5px grey;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+
+/* CARD DATA */
+.card-data {
+    position: absolute;
+    width: 100%;
+    height: 90%; 
+    margin-top: 6%;
+    /* outline: auto;
+    outline-style: solid;
+    outline-width: thick; */
+    /* top: 40%; */
+}
+
+
+/* CLICK HERE FOR A SURPRISE */
+.row1 {
+    /* position: relative; */
+    background-color: var(--baseblue);    
+    width: 100%;
+    height: 10%;
+    outline: auto;
+    outline-style: solid;
+    outline-color: var(--baseblue);
+}
+
+/* NAVIGATION */
+.row2 {
+    position: relative;
+    background-color: white;
+    width: auto;
+    height: 8%;
+    padding: 4px;
+    padding-bottom: 10px;
+
+}
+
+.row1, .row2 {
+    outline: auto;
+    outline-style: solid;
+    outline-color: var(--baseblue);
+    outline-width: 5px;
+}
+
+.search-bar {
+    float: right;
+    outline: auto;
+    outline-style: solid;
+    outline-width: 2px;
+    padding: 1px;
+    width: 120px;
+    margin-right: 4px;
+    margin-top: 2px;
+}
+
+.search-bar p {
+    line-height: 0px;
+    /* padding: auto; */
+    margin: 10px;
+    float: left;
+    align-self: center;
+}
+
+.profile {
+    width: 100%;
+    height: 80%;
+    /* outline: auto; 
+    outline-style: solid;
+    outline-width: 5px; */
+    /* outline-color: var(--baseblue); */
+} 
+
+
+.data {
+    height: 100%;
+    outline: auto;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: var(--baseblue);
+}
+
+.left-data {
+    /* background-color: white; */
+    float: left;
+    text-indent: 0;
+    /* width: 40%; */
+}
+
+
+.right-data {
+    /* background-color: aliceblue; */
+    /* width: 60%; */
+    float: right;
+}
+
+.left-data, .right-data {
+    width: 50%;
+    height: 80%;
+    font-size: 18px;
+    /* background-color: white; */
+}
+
+
+/* LOWER DATA */
+
+.left-data #lower-data, .right-data #lower-data {
+    line-height: 25px;
+    width: 90%;
+    /* padding-left: 3px; */
+}
+
+.right-data #lower-data {
+    outline-style: auto;
+    outline-style: solid;
+    outline-width: 2px;
+    padding: 5px;
+}
+
+/* UPPER DATA  */
+
+.upper-data {
+    height: 100%;
+    /* outline: auto;
+    outline-style: solid; */
+}
+
+.upper-data p {
+    line-height: 6px;
+    /* font-weight: bold; */
+}
+
+.upper-data ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.upper-data img {
+    height: auto;
+    width: 41%;
+    float: right;
+    padding-right: 15px;
+    padding-top: 14px;
+    padding-bottom: 25px;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--baseblue);
+    width: 100%;
+    height: 10%;
+    outline: auto;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: var(--baseblue);
+    /* padding: 20px; */
+    margin-top: 0px;
+}
+
+footer p {
+    text-align: right;
+    font-weight: 600;
+}
